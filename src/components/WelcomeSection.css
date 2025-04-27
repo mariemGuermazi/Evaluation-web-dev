@@ -1,0 +1,68 @@
+.welcome-section {
+  padding: 15px 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.welcome-section h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.welcome-section h2 {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+
+.welcome-section h3 {
+  font-size: 16px;
+  color: #4caf50;
+  margin-bottom: 15px;
+  background-color: #f9f9e0;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.welcome-section p {
+  margin-bottom: 12px;
+  text-align: justify;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.welcome-section strong {
+  font-weight: bold;
+}
+
+@media (min-width: 781px) {
+  .welcome-section {
+    padding: 0;
+  }
+
+  .welcome-section h1 {
+    font-size: 48px;
+    margin-bottom: 8px;
+  }
+
+  .welcome-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+#center-text{
+  text-align: center;
+}
+  .welcome-section h3 {
+    font-size: 24px;
+    padding: 5px 15px;
+   font-weight: 700;
+  }
+
+  .welcome-section p {
+    font-size: 14px;
+  }
+}

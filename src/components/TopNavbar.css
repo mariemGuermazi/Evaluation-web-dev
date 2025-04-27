@@ -1,0 +1,107 @@
+.header-section {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.top-navbar {
+  background-color: #e6f2f7;
+  padding: 5px 0;
+  border-bottom: 1px solid #d0e5f2;
+  width: 100%;
+}
+
+.top-links {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  overflow-x: auto;
+  width: 100%;
+}
+
+.top-link {
+  color: #0056b3;
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 20px;
+  white-space: nowrap;
+}
+
+.xplore {
+  font-style: italic;
+}
+
+.top-link:hover {
+  text-decoration: underline;
+}
+
+.main-header {
+  background-color: white;
+  padding: 15px 0;
+  width: 100%;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.jurse-logo {
+  height: 60px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-icon {
+  cursor: pointer;
+}
+
+.ieee-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.ieee-logo {
+  height: 40px;
+}
+
+@media (max-width: 780px) {
+  .top-navbar {
+    display: none;
+  }
+
+  .main-header {
+    padding: 10px 0;
+  }
+
+  .header-container {
+    padding: 0 15px;
+  }
+
+  .jurse-logo {
+    height: 40px;
+  }
+
+  .ieee-logo {
+    height: 30px;
+  }
+
+  .right-section {
+    gap: 15px;
+  }
+}
